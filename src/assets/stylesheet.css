@@ -1,0 +1,99 @@
+.app-header {
+    background: linear-gradient(45deg, #01284b, #09b9ab);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las etiquetas */
+.section-label {
+    background: #b0c1cf;
+    color: black;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 14px; /* Tamaño de fuente más grande */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.section-dropdown {
+    background: #b0c1cf;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px; /* Tamaño de fuente más grande */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section-text-input {
+    background: #ecf2f893;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 12px; /* Tamaño de fuente más grande */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-text-tarea {
+    background: #ecf2f893;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 12px; /* Tamaño de fuente más grande */
+    box-shadow: 0 2px 4px rgba(126, 124, 124, 0.2);
+}
+
+/* Estilos para los cuadros de selección */
+.dropdown {
+    background: #ecf2f893;
+}
+
+
+/* Estilos para el selector de fecha */
+.date-picker {
+    background: linear-gradient(45deg, #c8dbec, #00c4b4);
+    width: 290px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 6px;
+    color: #333;
+}
+.date-picker .DateInput_input--selected,
+.date-picker .SingleDatePickerInput {
+    font-size: 10px; /* Tamaño de fuente para fechas seleccionadas cuando el calendario está cerrado */
+}
+
+.date-picker .DayPicker-Caption > div {
+    font-size: 10px; /* Tamaño de fuente personalizado para cuando el calendario está cerrado */
+}
+
+/* Opcional: Cambia el tamaño de la fuente de los días del calendario */
+.date-picker .CalendarMonth_table td {
+    font-size: 14px; /* Tamaño de fuente personalizado */
+}
+
+
+.border {
+    border: 5px solid #ccc; 
+    text-align: center;
+}
+
+/* Estilos para el gráfico */
+.chart {
+    border: 5px solid #ccc; /* Borde más delgado y más claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+
+/* Estilos para el contenedor de la aplicación */
+.app-container {
+    max-width: 1200px; /* Ancho máximo más grande */
+    margin: 0 auto;
+    padding: 30px; /* Espaciado interno adicional */
+    background-color: #f7f7f7; /* Fondo gris claro */
+    border: 2px solid #ccc; /* Borde más pronunciado */
+    border-radius: 12px; /* Esquinas redondeadas más grandes */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    color: #333; /* Texto oscuro */
+}
